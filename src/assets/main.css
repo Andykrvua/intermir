@@ -1,0 +1,114 @@
+@import './reset.css';
+@import './base.css';
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.page {
+  flex: 1 0 auto;
+}
+
+/* ui and helpers */
+.container {
+  padding-inline: var(--base-padding);
+}
+
+.rubik-black {
+  font-weight: 900;
+}
+
+.rubik-extrabold {
+  font-weight: 800;
+}
+
+.rubik-bold {
+  font-weight: 700;
+}
+
+.rubik-semibold {
+  font-weight: 600;
+}
+
+.rubik-medium {
+  font-weight: 500;
+}
+
+.rubik-regular {
+  font-weight: 400;
+}
+
+.rubik-light {
+  font-weight: 300;
+}
+
+.base-btn,
+.accent-btn {
+  padding: 0.688rem 1rem;
+  border: 0.063rem solid var(--content-primary);
+  color: var(--content-primary);
+  background-color: transparent;
+}
+
+a.base-btn {
+  display: inline-block;
+}
+
+.accent-btn {
+  border-color: transparent;
+  color: var(--accent-default);
+  background-color: var(--content-primary);
+}
+
+.h1 {
+  font-size: 5rem;
+  line-height: 5.5rem;
+  font-weight: 700;
+}
+
+.h4 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 700;
+}
+
+.subtitle-regular,
+.subtitle-bold {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.subtitle-bold {
+  font-weight: 700;
+}
+
+.text-1-line,
+.text-2-line,
+.text-3-line {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.text-2-line {
+  -webkit-line-clamp: 2;
+}
+
+.text-3-line {
+  -webkit-line-clamp: 3;
+}
+
+.base-input {
+  padding: 0.688rem 1rem;
+  border: 0.063rem solid var(--content-secondary);
+  border-radius: 0;
+  font: inherit;
+  outline: none;
+  color: var(--content-secondary);
+  background-color: transparent;
+}
