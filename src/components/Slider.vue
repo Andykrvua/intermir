@@ -42,6 +42,10 @@ const onSlideChange = () => console.log('slide change')
   margin-block-end: 3.25rem;
 }
 
+.swiper-slide {
+  text-align: center;
+}
+
 .swiper-pagination-bullet {
   width: 0.75rem;
   height: 0.75rem;

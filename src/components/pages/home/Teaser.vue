@@ -21,11 +21,12 @@
   }
 
   &-img {
+    width: 100%;
+    height: 100%;
     pointer-events: none;
     position: absolute;
     inset: 0;
     object-fit: cover;
-    height: 100%;
   }
 
   .container {
